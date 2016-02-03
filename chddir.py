@@ -2,6 +2,8 @@ import glob
 import subprocess
 import os.path
 
+# do it at last words
+
 ABSPATH = "/usr/local/lib/"  # absolute path to relative libraries
 # libraries to correct
 LIBPATHS = ['/usr/local/lib/python2.7/site-packages/cv2.so', '/usr/local/lib/libopencv*'] 
